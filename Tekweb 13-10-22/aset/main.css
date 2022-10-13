@@ -1,0 +1,32 @@
+
+header{
+    background-color: #aedff1;
+    height: 100px;
+    width: 100%;
+
+}
+header img{
+    padding: 15px;
+    width:80px;
+}
+
+header nav {
+    width: 85%;
+    float: left;
+}
+
+header nav h1{
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+header nav ul {
+    float: right;
+    margin-right: 15px;
+}
+header nav li {
+    float: left;
+    font-size: 16px;
+    margin-left: 15px;
+    display: block;
+}

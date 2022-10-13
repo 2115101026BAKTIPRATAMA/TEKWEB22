@@ -1,0 +1,31 @@
+#maincontent{
+    width: auto;
+    float: right;
+}
+#sidebar{
+    width: auto;
+    float: left;
+}
+@media screen  and (max-width : 680px)
+{
+    #maincontent{
+        width: auto;
+        float: none;
+    }
+    #sidebar{
+        width: auto;
+        float: none
+    }
+    
+}
+@media screen  and (max-width : 480px)
+{
+    #maincontent{
+        width: auto;
+        float: none;
+    }
+    #sidebar{
+        display: none;
+    }
+    
+}
